@@ -1,0 +1,8 @@
+List of all the items to be done for the project
+
+1 home page
+2 blog pages
+3 game page
+4 budgetly page
+5 motivation page
+6 
