@@ -938,27 +938,19 @@ body {
     .section-features {
       padding: 10rem 0; } }
 
-.section-tours {
+.section-more {
   background-color: #f7f7f7;
   padding: 0rem 0 15rem 0;
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
-    .section-tours {
+    .section-more {
       padding: 20rem 0 10rem 0; } }
 
-.section-stories {
-  position: relative;
-  transform: translateY(-5vh);
-  padding: 15rem 0; }
-  @media only screen and (max-width: 56.25em) {
-    .section-stories {
-      padding: 10rem 0; } }
-
-.section-book {
+.section-contact {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, #2f81eda4, #2f80ed); }
   @media only screen and (max-width: 56.25em) {
-    .section-book {
+    .section-contact {
       padding: 10rem 0; } }
 
 .book {
