@@ -16,6 +16,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 1em = 16px
 */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -991,7 +992,7 @@ body {
 .container {
   background-color: #fafafa;
   transform: translateY(-15vh);
-  box-shadow: 5px 15px 15px 15px #cfcfcf; }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
 
 .blog_logo {
   position: absolute;
@@ -1015,4 +1016,12 @@ body {
   text-align: center;
   padding: 4rem;
   font-size: 2rem;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Roboto", sans-serif; }
+
+.blog_bubble {
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid #2f81eda4;
+  padding: 0.9rem 2.9rem;
+  margin: 0.5rem;
+  border-radius: 90px; }
