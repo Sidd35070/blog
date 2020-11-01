@@ -977,6 +977,53 @@ body {
       .book__form {
         width: 100%; } }
 
+.hidd {
+  opacity: 0; }
+
+.fade-in-element {
+  animation: fade-in ease 2s; }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50px) scale(0.8, 0.8); }
+  to {
+    opacity: 1;
+    transform: translateX(0px) scale(1, 1); } }
+
+.fade-in-left {
+  animation: fade-in-l ease 2s; }
+
+@keyframes fade-in-l {
+  from {
+    opacity: 0;
+    transform: translateX(-50px) scale(0.8, 0.8); }
+  to {
+    opacity: 1;
+    transform: translateX(0px) scale(1, 1); } }
+
+.fade-in-right {
+  animation: fade-in-r ease 2s; }
+
+@keyframes fade-in-r {
+  from {
+    opacity: 0;
+    transform: translateX(50px) scale(0.8, 0.8); }
+  to {
+    opacity: 1;
+    transform: translateX(0px) scale(1, 1); } }
+
+.fade-in-bottom {
+  animation: fade-in-b ease 2s; }
+
+@keyframes fade-in-b {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.8, 0.8); }
+  to {
+    opacity: 1;
+    transform: translateY(0px) scale(1, 1); } }
+
 .container-fluid {
   padding: 0px;
   box-shadow: 5px 15px 15px 15px #9e9e9e; }
