@@ -12,10 +12,10 @@ function hiddd() {
       for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
         var positionFromTop = elements[i].getBoundingClientRect().y;
-        console.log(positionFromTop);
+
   
         if (positionFromTop <= windowHeight / 1.3) {
-          console.log(element.classList);
+
           if (element.classList.contains("aleft")) {
             element.classList.add("fade-in-left");
           } else if (element.classList.contains("aright")) {
